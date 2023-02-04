@@ -11,8 +11,8 @@ or favorite movies, on three separate lines.
 
 int main(){
 
-    std::cout << "Linda\n";
-    std::cout << "Ryan\n";
+    std::cout << "Linda" << std::endl;
+    std::cout << "Ryan" << std::endl;
     std::cout << "Paul" << std::endl;
     return 0;
 }
