@@ -14,11 +14,11 @@ Then print the cost per 100 miles and how far the car can go with the gas in the
 
 int main(){
 
-    int gas_in_tank;
-    int fuel_efficiency;
-    int price_per_gal;
-    int cost_per_100_miles;
-    int possible_miles_travelled;
+    float gas_in_tank;
+    float fuel_efficiency;
+    float price_per_gal;
+    float cost_per_100_miles;
+    float possible_miles_travelled;
 
     std::cin >> gas_in_tank;
     std::cin >> fuel_efficiency;
