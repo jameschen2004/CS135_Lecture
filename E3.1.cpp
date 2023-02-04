@@ -12,15 +12,15 @@ positive.
 int main(){
 
     int num;
-
     std::cin >> num;
-    if (num > 0){
-        std::cout << "positive" << std::endl;
-    }
-    if (num = 0){
-        std::cout << "zero" << std::endl;
-    }
-    if (num < 0){
+
+    if (num > 0 || num == 0){
+        if (num > 0){
+        std::cout << "positive" << std::endl;}
+        else{
+            std::cout << "zero" << std::endl;}
+        }
+    else{
         std::cout << "negative" << std::endl;
     }
 
