@@ -14,7 +14,7 @@ int main(){
 
     std::string person_1;
     std::string person_2;
-    std::string person 3;
+    std::string person_3;
 
     std::cin >> person_1;
     std::cin >> person_2;
